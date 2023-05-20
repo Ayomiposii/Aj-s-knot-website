@@ -6,6 +6,13 @@ ul, li {
     list-style: none;
     display: inline;
 }
+a{
+    text-decoration: none;
+    color: goldenrod;
+}
+.jewelrysec img {
+    width: 250px 100px;
+}
 .navlist, li{
     text-align: right;
     margin-right: 10px;
