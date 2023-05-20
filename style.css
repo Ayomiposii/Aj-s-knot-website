@@ -6,3 +6,8 @@ ul, li {
     list-style: none;
     display: inline;
 }
+.navlist, li{
+    text-align: right;
+    margin-right: 10px;
+    padding-right: 10px;
+}
