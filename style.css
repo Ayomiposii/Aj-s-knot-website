@@ -17,10 +17,29 @@ a:active {
     border-radius: 20px;
     padding: 9px;
 }
+.logohead {
+    margin: 15px;
+}
+.logo{
+    
+    border-radius: 30px;
+}
+.head {
+    /* font-family: 'Caveat', cursive;
+font-family: 'Caveat Brush', cursive;
+font-family: 'Combo', cursive;
+font-family: 'Qwigley', cursive; */
+font-family: 'Qwitcher Grypen', cursive;
+    padding-left: 10px;
+}
+.lit{
+    color: goldenrod;
+}
 .jewelrysec img {
     width: 250px 100px;
 }
 .navwhole{
+    margin-top: 5px;
     max-width: 100%;
     background-color: rgba(218, 165, 32, 0.268);
     padding-bottom: 20px;
