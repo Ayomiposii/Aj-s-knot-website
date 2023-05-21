@@ -37,7 +37,7 @@ font-family: 'Qwigley', cursive;
 .lit {
   color: goldenrod;
 }
-.jewelrysec img {
+.crochetsec img {
   width: 250px 100px;
 }
 .navwhole {
@@ -56,35 +56,44 @@ li {
 .nextimage {
     width: 100%;
 }
-.jewel {
+.wear {
   text-align: center;
   padding: 10px;
   color: goldenrod;
   border: 2px solid goldenrod;
   border-radius: 10px;
 }
-.jewels {
+.wears {
   text-align: center;
   padding: 10px;
   color: black;
   border: 2px solid black;
   border-radius: 10px;
 }
-.jewelrysec h5 {
+.crochetsec h5 {
     font-family: 'Combo', cursive;
     font-size: 400;
 }
-.necklaces {
+.tops {
   background-color: black;
 }
-.bracelets {
+.croptop {
   background-color: goldenrod;
 }
-.rings {
+.skirts {
   background-color: black;
 }
-.others {
+.romper {
   background-color: goldenrod;
+}
+.shorts {
+  background-color: black;
+}
+.vests {
+  background-color: goldenrod;
+}
+.swinwear {
+  background-color: black;
 }
 .goods {
   padding: 20px;
