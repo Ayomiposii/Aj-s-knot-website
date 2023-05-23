@@ -59,15 +59,15 @@ li {
 .wear {
   text-align: center;
   padding: 10px;
-  color: goldenrod;
-  border: 2px solid goldenrod;
+  color: white;
+  border: 2px solid white;
   border-radius: 10px;
 }
 .wears {
   text-align: center;
   padding: 10px;
-  color: black;
-  border: 2px solid black;
+  color: white;
+  border: 2px solid white;
   border-radius: 10px;
 }
 .crochetsec h5 {
@@ -94,6 +94,9 @@ li {
 }
 .swinwear {
   background-color: black;
+}
+.beanies{
+  background-color: purple;
 }
 .goods {
   padding: 20px;
