@@ -9,14 +9,14 @@ li {
 }
 a {
   text-decoration: none;
-  color: goldenrod;
+  color: purple;
   font-size: larger;
   font-family: 'Caveat Brush', cursive;
 }
 a:active {
   background-color: black;
-  color: goldenrod;
-  border: 2px solid goldenrod;
+  color: purple;
+  border: 2px solid purple;
   border-radius: 20px;
   padding: 9px;
 }
@@ -35,7 +35,7 @@ font-family: 'Qwigley', cursive;
   padding-left: 10px;
 }
 .lit {
-  color: goldenrod;
+  color: purple;
 }
 .crochetsec img {
   width: 250px 100px;
@@ -43,7 +43,7 @@ font-family: 'Qwigley', cursive;
 .navwhole {
   margin-top: 5px;
   max-width: 100%;
-  background-color: rgba(218, 165, 32, 0.268);
+  background-color: rgb(198, 93, 198);
   padding-bottom: 20px;
   border-radius: 10px;
 }
@@ -78,19 +78,19 @@ li {
   background-color: black;
 }
 .croptop {
-  background-color: goldenrod;
+  background-color: purple;
 }
 .skirts {
   background-color: black;
 }
 .romper {
-  background-color: goldenrod;
+  background-color: purple;
 }
 .shorts {
   background-color: black;
 }
 .vests {
-  background-color: goldenrod;
+  background-color: purple;
 }
 .swinwear {
   background-color: black;
