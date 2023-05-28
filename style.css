@@ -11,9 +11,9 @@ a {
   text-decoration: none;
   color: goldenrod;
   font-size: larger;
-  font-family: 'Caveat Brush', cursive;
+  font-family: "Caveat Brush", cursive;
 }
-a:active {
+.navwhole a:active {
   background-color: black;
   color: goldenrod;
   border: 2px solid goldenrod;
@@ -30,7 +30,7 @@ a:active {
   /* font-family: 'Caveat', cursive;
 font-family: 'Caveat Brush', cursive;
 font-family: 'Combo', cursive;*/
-font-family: 'Qwigley', cursive; 
+  font-family: "Qwigley", cursive;
   /* font-family: "Qwitcher Grypen", cursive; */
   padding-left: 10px;
 }
@@ -54,7 +54,14 @@ li {
   padding-right: 10px;
 }
 .nextimage {
-    width: 100%;
+  width: 100%;
+}
+.terms{
+  padding-bottom: 10px;
+}
+.subpara {
+  color: gray;
+  font-family: "Caveat", cursive;
 }
 .jewel {
   text-align: center;
@@ -71,8 +78,8 @@ li {
   border-radius: 10px;
 }
 .jewelrysec h5 {
-    font-family: 'Combo', cursive;
-    font-size: 400;
+  font-family: "Combo", cursive;
+  font-size: 400;
 }
 .necklaces {
   background-color: black;
@@ -88,17 +95,16 @@ li {
 }
 .goods {
   padding: 20px;
-  margin-top: 5px;
   border-radius: 10px;
 }
 .subscript {
-    color: white;
-    padding-top:10px ;
+  color: white;
+  padding-top: 10px;
 }
-@media (max-width:750px) {
-    .allcard {
-        margin: 0 auto;
-        padding-left: 35px;
-        padding-top: 10px;
-    }
+@media (max-width: 750px) {
+  .allcard {
+    margin: 0 auto;
+    padding-left: 35px;
+    padding-top: 10px;
+  }
 }

@@ -13,7 +13,7 @@ a {
   font-size: larger;
   font-family: 'Caveat Brush', cursive;
 }
-a:active {
+.navwhole a:active {
   background-color: black;
   color: purple;
   border: 2px solid purple;
