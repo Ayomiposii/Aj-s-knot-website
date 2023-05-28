@@ -59,6 +59,13 @@ li {
 .terms{
   padding-bottom: 10px;
 }
+.termspic{
+  display: block;
+  margin: 0 auto;
+  padding-top: 10px;
+  width: 100px;
+  background-color: white;
+}
 .subpara {
   color: gray;
   font-family: "Caveat", cursive;
