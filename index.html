@@ -27,24 +27,30 @@
   </head>
    <body>
   <div class="container">
-    <div class="navwhole">
+    <div class="navwhole" id="navwhole">
       <ul>
       <div class="logohead">
         <h1><img src="logo.jpg" width="60px" class="logo" alt="logo" /><span class="head">A <i class="lit">Little </i>  Luxury</span></h1>
       </div>
       <div class="navlist">
         <li><a href="#"> <i class="fa-regular fa-house"></i> Home </a></li>
-        <li><a href="#products">Product </a></li>
+        <li><a href="#product">Product </a></li>
         <li><a href="#contact"> <i class="fa-regular fa-user"></i> Contact </a></li>
       </div>
     </ul>
     </div>
 
     <img src="logo.jpg" class="nextimage" alt="" />
-        <section class="jewelrysec" id="products">
+        <section class="jewelrysec" id="product">
       <section class="bestsell goods">
       <div>
         <h5 class="jewels">Best Sellers
+         <a
+      href="#products"
+        type="button"
+        class="btn btn-floating btn btn-lg m-1 "
+        ><i class="fa-solid fa-arrow-down"></i>
+      </a>
       </h5>
       </div>
       <div class="row">
@@ -161,6 +167,7 @@
       <div>
         <h5 class="jewel">Necklaces
       <a
+      href="#navwhole"
         type="button"
         class="btn btn-floating btn btn-lg m-1 "
         ><i class="fa-solid fa-arrow-up"></i>
@@ -252,6 +259,7 @@
               <section class="bracelets goods">
                 <h5 class="jewels">Bracelets
                   <a
+                    href="#navwhole"
                     type="button"
                     class="btn btn-floating btn btn-lg m-1 "
                     ><i class="fa-solid fa-arrow-up"></i>
@@ -301,6 +309,7 @@
               <section class="rings goods">
                 <h5 class="jewel">Rings
                   <a
+                  href="#navwhole"
                     type="button"
                     class="btn btn-floating btn btn-lg m-1 "
                     ><i class="fa-solid fa-arrow-up"></i>
@@ -350,6 +359,7 @@
               <section class="others goods">
                 <h5 class="jewels">Others
                   <a
+                    href="#navwhole"
                     type="button"
                     class="btn btn-floating btn btn-lg m-1 "
                     ><i class="fa-solid fa-arrow-up"></i>
@@ -396,6 +406,19 @@
       </div>
         <p class="subscript">*All jewelries come luxuriously package</p>
     </section>
+    </section>
+    <section>
+      <div class="reviews">
+        <form>
+          <label for="">Name</label>
+          <input type="text" name="fullname" id="name" placeholder="Surname first">
+          <label for="">Review</label>
+          <input type="text" name="message" id="message" placeholder="Write a review">
+          <label for="">Stars</label>
+          <input type="number" min="1" max="5" name="" id="">
+          <input type="button" name="submit" id="submitbutton">
+        </form>
+      </div>
     </section>
     <!-- Footer -->
     <footer
@@ -466,29 +489,38 @@
               <div class="mt-4">
                 <!-- Facebook -->
                 <a
+                href=""
+                  target="_blank"
                   type="button"
                   class="btn btn-floating btn btn-primary btn-lg m-1"
                   ><i class="fab fa-facebook-f"></i
                 ></a>
                 <!-- Instagram -->
                 <a
+                href=""
+                  target="_blank"
                   type="button"
                   class="btn btn-floating btn btn-danger btn-lg m-1"
                   ><i class="fa-brands fa-instagram"></i
                 ></a>
                 <!-- Twitter -->
                 <a
+                href=""
+                  target="_blank"
                   type="button"
                   class="btn btn-floating btn btn-primary btn-lg m-1"
                   ><i class="fab fa-twitter"></i
                 ></a>
-                <!-- Google -->
+                <!-- Tiktok -->
                 <a
+                  href=""
+                  target="_blank"
                   type="button"
                   class="btn btn-floating btn btn-secondary btn-lg m-1"
                   ><i class="fa-brands fa-tiktok"></i
                 ></a>
                 <a
+                href="#navwhole"
                   type="button"
                   class="btn btn-floating btn btn-danger btn-lg m-1"
                   ><i class="fa-solid fa-arrow-up"></i
