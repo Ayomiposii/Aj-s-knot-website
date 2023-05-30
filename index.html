@@ -34,7 +34,12 @@
       </div>
       <div class="navlist">
         <li><a href="#"> <i class="fa-regular fa-house"></i> Home </a></li>
-        <li><a href="#product">Product </a></li>
+        <li><a href="#product">Product </a>
+            <ul>
+              <li></li>
+              <li></li>
+            </ul>
+        </li>
         <li><a href="#contact"> <i class="fa-regular fa-user"></i> Contact </a></li>
       </div>
     </ul>
@@ -409,12 +414,13 @@
     </section>
     <section>
       <div class="reviews">
+        <h4>REVIEWS</h4>
         <form>
-          <label for="">Name</label>
-          <input type="text" name="fullname" id="name" placeholder="Surname first">
-          <label for="">Review</label>
+          <label for="">Name:</label>
+          <input type="text" name="fullname" id="name" placeholder="Your name">
+          <label for="">Review:</label>
           <input type="text" name="message" id="message" placeholder="Write a review">
-          <label for="">Stars</label>
+          <label for="">Stars:</label>
           <input type="number" min="1" max="5" name="" id="">
           <input type="button" name="submit" id="submitbutton">
         </form>
