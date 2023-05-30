@@ -67,8 +67,9 @@ li {
   background-color: white;
 }
 .subpara {
-  color: gray;
-  font-family: "Caveat", cursive;
+  color: rgb(92, 92, 92);
+  font-family: 'Combo', cursive;
+  font-size: larger;
 }
 .jewel {
   text-align: center;
@@ -88,6 +89,9 @@ li {
   font-family: "Combo", cursive;
   font-size: 400;
 }
+/* .bestsell{
+  background-color: goldenrod;
+} */
 .necklaces {
   background-color: black;
 }
