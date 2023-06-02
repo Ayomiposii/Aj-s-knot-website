@@ -18,6 +18,9 @@ label  {
   color: goldenrod;
   padding: 5px 5px 5px 0px;
 }
+input {
+  border-color: goldenrod;
+}
 .navwhole a:active {
   background-color: black;
   color: goldenrod;
@@ -138,9 +141,23 @@ label  {
   color: goldenrod;
   padding: 5px 5px 5px 0px;
 }
+#name {
+  width: 300px;
+
+}
 #message {
-  max-width: 200px;
-  height: 5;
+  width: 400px;
+  height: 200px;
+
+}
+#submitbutton{
+  color: goldenrod;
+  background-color: black;
+  padding: 5px;
+  margin-top: 5px;
+  border: 2px solid goldenrod;
+  border-radius: 10px;
+
 }
 @media (max-width: 750px) {
   .allcard {
