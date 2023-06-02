@@ -13,6 +13,11 @@ a {
   font-size: larger;
   font-family: "Caveat Brush", cursive;
 }
+label  {
+  font-family: 'Courier New', Courier, monospace;
+  color: goldenrod;
+  padding: 5px 5px 5px 0px;
+}
 .navwhole a:active {
   background-color: black;
   color: goldenrod;
@@ -111,6 +116,31 @@ li {
 .subscript {
   color: white;
   padding-top: 10px;
+}
+/* .reviewhead{
+  text-align: center;
+  margin-top:10px ;
+  padding: 8px;
+  color: goldenrod;
+  border: 2px solid black;
+  border-radius: 5px;
+} */
+.reviewform {
+  border: 2px solid black;
+  max-width: 500px;
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+
+}
+label  {
+  font-family: 'Courier New', Courier, monospace;
+  color: goldenrod;
+  padding: 5px 5px 5px 0px;
+}
+#message {
+  max-width: 200px;
+  height: 5;
 }
 @media (max-width: 750px) {
   .allcard {

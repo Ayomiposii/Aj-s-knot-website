@@ -56,6 +56,21 @@ li {
 .nextimage {
     width: 100%;
 }
+.terms{
+  padding-bottom: 10px;
+}
+.termspic{
+  display: block;
+  margin: 0 auto;
+  padding-top: 10px;
+  width: 100px;
+  background-color: white;
+}
+.subpara {
+  color: rgb(92, 92, 92);
+  font-family: 'Combo', cursive;
+  font-size: larger;
+}
 .wear {
   text-align: center;
   padding: 10px;
