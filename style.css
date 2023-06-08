@@ -13,6 +13,9 @@ a {
   font-size: larger;
   font-family: "Caveat Brush", cursive;
 }
+form{
+  max-width: 300px;
+}
 label  {
   font-family: 'Courier New', Courier, monospace;
   color: goldenrod;
@@ -35,12 +38,12 @@ input {
   border-radius: 30px;
 }
 .head {
-  /* font-family: 'Caveat', cursive;
-font-family: 'Caveat Brush', cursive;
-font-family: 'Combo', cursive;*/
   font-family: "Qwigley", cursive;
-  /* font-family: "Qwitcher Grypen", cursive; */
   padding-left: 10px;
+  /* font-family: 'Caveat', cursive;
+   font-family: 'Caveat Brush', cursive;
+   font-family: 'Combo', cursive;*/
+  /* font-family: "Qwitcher Grypen", cursive; */
 }
 .lit {
   color: goldenrod;
@@ -130,24 +133,19 @@ li {
 } */
 .reviewform {
   border: 2px solid black;
-  max-width: 500px;
+  max-width: 300px;
   display: block;
   margin: 0 auto;
   padding: 10px;
 
 }
-label  {
-  font-family: 'Courier New', Courier, monospace;
-  color: goldenrod;
-  padding: 5px 5px 5px 0px;
-}
 #name {
-  width: 300px;
+  width: 200px;
 
 }
 #message {
-  width: 400px;
-  height: 200px;
+  /* width: 250px;
+  height: 200px; */
 
 }
 #submitbutton{
