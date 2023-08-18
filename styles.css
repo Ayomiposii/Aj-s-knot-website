@@ -27,11 +27,11 @@ a {
   border-radius: 30px;
 }
 .head {
-  /* font-family: 'Caveat', cursive;
-font-family: 'Caveat Brush', cursive;
-font-family: 'Combo', cursive;*/
+font-family: 'Caveat', cursive;
+/* font-family: 'Caveat Brush', cursive;
+font-family: 'Combo', cursive;
 font-family: 'Qwigley', cursive; 
-  /* font-family: "Qwitcher Grypen", cursive; */
+font-family: "Qwitcher Grypen", cursive; */
   padding-left: 10px;
 }
 .lit {
@@ -48,6 +48,18 @@ font-family: 'Qwigley', cursive;
   border-radius: 10px;
   border-bottom: 20px solid #cea2fd;
   border-top: 10px solid #cea2fd;
+}
+.productbtns{
+  background-color: purple;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 10px;
+}
+.productbtn{
+  display: block;
+  margin: 10px auto;
+  color: #cea2fd;
+  border: 2px solid #C8A2C8;
 }
 .navlist,
 li {
