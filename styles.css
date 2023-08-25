@@ -83,11 +83,11 @@ li {
   width: 100px;
   background-color: white;
 }
-.cartbtn {
+.card-body a {
   border: none;
   background-color: #cea2fd;
   padding: 10px;
-  color: #c655ff;
+  color: #78339b;
 }
 .subpara {
   color: rgb(92, 92, 92);

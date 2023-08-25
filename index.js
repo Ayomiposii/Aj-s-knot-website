@@ -1,6 +1,5 @@
-function myFunction(x) {
-    x.classlist.toggle("fa-solid fa-gem");
-}
+
+
 let add_to_cart_btn = document.getElementsByClassName ('btn-primary')
 let main_container = document.getElementsByTagName('tbody')[0]
 
