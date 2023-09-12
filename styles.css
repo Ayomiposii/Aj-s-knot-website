@@ -25,6 +25,7 @@ a {
   margin: 15px;
 }
 .logo {
+  border: 1px solid #f98171;
   border-radius: 30px;
 }
 .head {
@@ -53,6 +54,10 @@ font-family: "Qwitcher Grypen", cursive; */
 .producticon {
   display: block;
   margin: 0 auto;
+  width: 50px;
+  padding: 5px;
+  border: 2px solid #f98171;
+  border-radius: 50%;
 }
 .productbtns{
   margin-top: 5px;
@@ -85,7 +90,7 @@ li {
 }
 .card-body a {
   border: none;
-  background-color: #cea2fd;
+  background-color: #f98171;
   padding: 10px;
   color: #78339b;
 }
@@ -116,25 +121,25 @@ li {
   background-color: black;
 }
 .croptop {
-  background-color: purple;
+  background-color: #f98171;
 }
 .skirts {
   background-color: black;
 }
 .romper {
-  background-color: purple;
+  background-color: #f98171;
 }
 .shorts {
   background-color: black;
 }
 .vests {
-  background-color: purple;
+  background-color: #f98171;
 }
 .swinwear {
   background-color: black;
 }
 .beanies{
-  background-color: purple;
+  background-color: #f98171;
 }
 .goods {
   padding: 20px;
