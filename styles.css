@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  background: linear-gradient(174.6deg, rgb(253, 240, 233) 2.2%, rgb(255, 194, 203) 56.2%);
 }
 ul,
 li {
@@ -62,6 +63,7 @@ font-family: "Qwitcher Grypen", cursive; */
 .productbtns{
   margin-top: 5px;
   border-radius: 10px;
+  background-color: #fcede6;
 }
 .productbtn{
   font-size: 12px;
@@ -78,8 +80,11 @@ li {
 .nextimage {
     width: 100%;
 }
+
 .terms{
   padding-bottom: 10px;
+  background-color: white;
+  border-radius: 10px;
 }
 .termspic{
   display: block;
@@ -90,9 +95,9 @@ li {
 }
 .card-body a {
   border: none;
-  background-color: #f98171;
+  background: linear-gradient(to right, #ff758c 20%, #ff7eb3 80%);
   padding: 10px;
-  color: white;
+  color: #fcede6;
 }
 .subpara {
   color: rgb(92, 92, 92);
@@ -102,8 +107,8 @@ li {
 .wear {
   text-align: center;
   padding: 10px;
-  color: white;
-  border: 2px solid white;
+  color: black;
+  border: 2px solid black;
   border-radius: 10px;
 }
 .wears {
@@ -118,28 +123,28 @@ li {
     font-size: 400;
 }
 .tops {
-  background-color: black;
+  background: linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
 }
 .croptop {
-  background-color: #f98171;
+  background: linear-gradient(to bottom, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
 }
 .skirts {
-  background-color: black;
+  background: linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
 }
 .romper {
-  background-color: #f98171;
+  background: linear-gradient(to bottom, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
 }
 .shorts {
-  background-color: black;
+  background: linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
 }
 .vests {
-  background-color: #f98171;
+  background: linear-gradient(to bottom, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
 }
 .swinwear {
-  background-color: black;
+  background: linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
 }
 .beanies{
-  background-color: #f98171;
+  background: linear-gradient(to bottom, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
 }
 .goods {
   padding: 20px;
@@ -147,7 +152,7 @@ li {
   border-radius: 10px;
 }
 .subscript {
-    color: white;
+    color: black;
     padding-top:10px ;
 }
 * {box-sizing:border-box}
