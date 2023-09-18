@@ -250,4 +250,10 @@ li {
         padding-left: 35px;
         padding-top: 10px;
     }
+    
+}
+@media (max-width:1200px) {
+  .card-body a {
+       font-size: smaller;
+    }
 }
