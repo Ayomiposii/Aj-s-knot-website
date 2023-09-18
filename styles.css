@@ -110,13 +110,15 @@ li {
   color: black;
   border: 2px solid black;
   border-radius: 10px;
+  background: linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
 }
 .wears {
   text-align: center;
   padding: 10px;
-  color: white;
-  border: 2px solid white;
+  color: black;
+  border: 2px solid black;
   border-radius: 10px;
+  background: linear-gradient(to bottom, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
 }
 .crochetsec h5 {
     font-family: 'Combo', cursive;
