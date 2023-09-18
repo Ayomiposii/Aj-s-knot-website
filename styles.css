@@ -104,6 +104,15 @@ li {
   font-family: 'Combo', cursive;
   font-size: larger;
 }
+.spec{
+  text-align: center;
+  padding: 10px;
+  color: black;
+  border: 2px solid black;
+  border-radius: 10px;
+  background: linear-gradient(to right, #c471f5 0%, #fa71cd 100%);
+
+}
 .wear {
   text-align: center;
   padding: 10px;
@@ -123,6 +132,9 @@ li {
 .crochetsec h5 {
     font-family: 'Combo', cursive;
     font-size: 400;
+}
+.special{
+  background: linear-gradient(to left, #c471f5 0%, #fa71cd 100%);
 }
 .tops {
   background: linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
@@ -254,6 +266,6 @@ li {
 }
 @media (max-width:1200px) {
   .card-body a {
-       font-size: smaller;
+       font-size: smaller; 
     }
 }
