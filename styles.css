@@ -80,6 +80,27 @@ li {
 .nextimage {
     width: 100%;
 }
+.secslide{
+  padding: 10px;
+}
+.bulkorder{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: larger;
+  font-weight: bolder;
+  padding: 5px;
+  margin: 10px 0px;
+  border: 2px solid black;
+  border-radius: 20px;
+  color: black;
+  text-align: center;
+  box-shadow: black;
+  background:  linear-gradient(to bottom, grey 0%,rgb(155, 155, 155) 99% , rgb(188, 188, 188) 100%); 
+}
+.bulkorderlink{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.547);
+}
 
 .terms{
   padding-bottom: 10px;
