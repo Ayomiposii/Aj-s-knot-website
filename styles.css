@@ -98,7 +98,6 @@ li {
   color: black;
   text-align: center;
   box-shadow: black;
-  background:  linear-gradient(to bottom, grey 0%,rgb(155, 155, 155) 99% , rgb(188, 188, 188) 100%); 
 }
 .bulkorderlink{
   font-family: 'Courier New', Courier, monospace;
@@ -117,6 +116,10 @@ li {
   padding-top: 10px;
   width: 100px;
   background-color: white;
+}
+.mainpros{
+  text-align: center;
+  font-family: 'Caveat', cursive;
 }
 .card-body a {
   border: none;
